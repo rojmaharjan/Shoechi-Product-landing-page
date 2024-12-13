@@ -17,6 +17,7 @@ ul a{
     flex-direction: column; 
     align-items: center; 
     height: auto;
+    margin-bottom: 15px;
 }
 .logo {
     justify-content: center;
@@ -234,9 +235,10 @@ ul a{
   }
     /* wrapper css  */
 /* Section Styles */
-.collection {
+.collection_new {
     max-width: 1000px;
     margin: auto;
+    margin-bottom: 50px;
 }
 .section_nav {
     display: flex;
@@ -260,20 +262,21 @@ ul a{
     display: flex;
     gap: 10px;
 }
-
+.section_btn button{
+    border: 2px solid #bbb;
+}
 .section_btn .btn_col {
     background: #4e4648;
-    border: none;
     color: white;
     padding: 10px 20px;
-    font-size: 14px;
+    font-size: 12px;
     cursor: pointer;
     border-radius: 5px;
     transition: background 0.3s;
 }
 
 .section_btn .btn_col:hover {
-    background: wheat;
+    background: linear-gradient(135deg , #f5deb3, #ebbe69);
 }
 
 /* Grid Styles */
@@ -296,7 +299,7 @@ ul a{
 
 /* Image Styles */
 .col-collection-item figure {
-    height: 150px;
+    height: 120px;
     background-color: #444;
     display: flex;
     align-items: center;
@@ -322,6 +325,7 @@ ul a{
 .col-body .Heading {
     font-size: 18px;
     margin: 0;
+    color: white;
 }
 
 .col-body .sub-heading {
@@ -336,23 +340,60 @@ ul a{
     justify-content: space-between;
     align-items: center;
 }
-
+.col-footer p{
+    color: white;
+}
 .shoe-price {
     font-size: 16px;
     font-weight: bold;
 }
 
 .shoe-btn {
-    background: #ff4b82;
+    background: linear-gradient(135deg, #00c4cc, #008a81);
     border: none;
     color: white;
-    padding: 10px 15px;
-    font-size: 14px;
+    padding: 8px 12px;
+    font-size: 10px;
     cursor: pointer;
     border-radius: 5px;
     transition: background 0.3s;
 }
 
 .shoe-btn:hover {
-    background: #ff285a;
+    background: linear-gradient(135deg, #008a81, #00c4cc);
+    color: wheat;
+}
+
+.collection_men {
+    border: 1px solid black;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.collection_women {
+    border: 1px solid black;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.collection_kids {
+    border: 1px solid black;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.playstore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+}
+
+.playstore-img img {
+    max-width: 100%;
+    height: auto;
 }
