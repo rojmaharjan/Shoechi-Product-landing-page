@@ -232,14 +232,127 @@ ul a{
   .active, .dot:hover {
     background-color: #717171;
   }
-  
-  /* Fading animation */
-  /* .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  } */
+    /* wrapper css  */
+/* Section Styles */
+.collection {
+    max-width: 1000px;
+    margin: auto;
+}
+.section_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.section_header .sub_heading {
+    color: #aaa;
+    font-size: 14px;
+    margin: 0;
+}
+
+.section_header .Heading_two {
+    font-size: 32px;
+    margin: 5px 0 0;
+}
+
+.section_btn {
+    display: flex;
+    gap: 10px;
+}
+
+.section_btn .btn_col {
+    background: #4e4648;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.section_btn .btn_col:hover {
+    background: wheat;
+}
+
+/* Grid Styles */
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.col-collection-item {
+    background: #2c2c3e;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.col-collection-item:hover {
+    transform: translateY(-10px);
+}
+
+/* Image Styles */
+.col-collection-item figure {
+    height: 150px;
+    background-color: #444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-collection-item img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Card Body Styles */
+.col-body {
+    padding: 15px;
+}
+
+.col-body .rating-icon {
+    color: #ffcc00;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.col-body .Heading {
+    font-size: 18px;
+    margin: 0;
+}
+
+.col-body .sub-heading {
+    font-size: 14px;
+    color: #bbb;
+    margin: 5px 0 15px;
+}
+
+/* Footer Styles */
+.col-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shoe-price {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.shoe-btn {
+    background: #ff4b82;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.shoe-btn:hover {
+    background: #ff285a;
+}
