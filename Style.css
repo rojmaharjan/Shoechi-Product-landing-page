@@ -22,6 +22,7 @@ ul a{
     justify-content: center;
     align-items: center;
     height: 50px;
+    margin-bottom: 10px;
 }
 .logo img {
     max-width: 150px; 
@@ -29,63 +30,85 @@ ul a{
 }
 .navbarlist {
     display: flex;
-    justify-content: space-around;
-    width: 100%;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
     background-color: rgb(232, 221, 200);
+    border-radius: 10px;
 }
 .navbarlist .logo1{
     justify-content: start;
     align-items: start;
+    padding: 5px;
+    height: 100%;
+    margin-left: 10px;
 }
 .navbarlist .logo1 img {
     max-width: 80px; 
-    height: auto;
-    margin-right: 40px;
+    height: 60px;
+    /* margin-right: 40px; */
 }
 .navbarlist ul{
     display: inline-flex; 
     flex-direction: row;
     list-style-type: none;
     cursor: pointer;
+    text-align: center;
 }
 
 .navbarlist ul li {
     margin: auto;
     font-size: 20px;
     cursor: pointer;
-    margin: auto;
-    margin-left: 20px;
+    margin: 10px;
     margin-top: 25px;
     color: black;
 }
 .navbar .search_login{
     display: flex;
+    margin: 5px;
 }
-.search_login .search {
-    display: flex;
-    margin: 15px 0;
-    margin-top: 25px;
-    justify-content: end;
-    margin-right: 30px;
-}
-.search input{
-    border-radius: 10px;
-}
-.search ::placeholder{
-    text-align: center;
-    color: #717171;
-}
+
 .navbarlist .cart{
-    margin-top: 25px;
+    margin-top: 30px;
     font-size: 20px;
     cursor: pointer;
+    margin: auto;
+    margin-right: 20px;
+    color: #444444;
 }
 .cart i{
-    margin-left: 20px;
+    margin-left: 10px;
 }
-.logo .menu{
-    display: none;
+
+.search input {
+    border-radius: 10px;
+    padding: 10px 40px 10px 15px; 
+    border: 1px solid #ccc;
+    width: 200px;
+    font-size: 16px;
 }
+.search {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.search i.fa-magnifying-glass {
+    position: absolute;
+    right: 15px; 
+    font-size: 18px;
+    color: #717171;
+    cursor: pointer;
+}
+.search ::placeholder {
+    text-align: left; 
+    color: #717171;
+}
+.search i.fa-magnifying-glass:hover {
+    color: #000; 
+}
+
+
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
@@ -101,6 +124,7 @@ ul a{
         flex-direction: column;
         align-items: flex-start;
         width: 100%;
+        display: none;
     }
 
     .navbarlist ul li {
@@ -355,6 +379,7 @@ ul a{
     color: #bbb;
     margin: 5px 0 15px;
 }
+
 
 /* Footer Styles */
 .col-footer {
