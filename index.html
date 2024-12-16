@@ -8,6 +8,7 @@
     integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    
     <title>Shoechi</title>
 </head>
 <body>
@@ -31,8 +32,8 @@
                 </ul>
                 <div class="search_login">
                     <div class="search">
-                        <!-- <input type="text" name="" id="" placeholder="search"> -->
-                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" name="" id="" placeholder="search">
+                        <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
                     </div>
                     <div class="cart">
                         <i class="fa-solid fa-cart-shopping"></i>
@@ -41,37 +42,39 @@
                 </div>
             </div>
         </div>
-        <div class="image_slider">
-            <!-- Slideshow container -->
-            <div class="slideshow-container">
-
-            <!-- Full-width images with number and caption text -->
-                <div class="mySlides fade">
-                      <img src="/Image/shoes1.jpg" style="width:100%">
-                    <!-- <div class="text">Caption Text</div> -->
+        <div class="promo">
+            <div class="promo-slider">
+              <div class="promo-section">
+                <!-- Stylish shoes for Women -->
+                <div class="promo-box">
+                  <img src="/image/joseph-barrientos-4qSb_FWhHKs-unsplash.jpg" alt="Stylish shoes for Women">
+                  <div class="promo-content">
+                    Stylish shoes for Women<br>
+                    <a href="#">SHOP NOW</a>
+                  </div>
                 </div>
-  
-                <div class="mySlides fade">
-                      <img src="/Image/shoes2.jpg" style="width:100%">
-                  <!-- <div class="text">Caption Two</div> -->
+          
+                <!-- Sports Wear -->
+                <div class="promo-box">
+                  <img src="/image/domino-studio-164_6wVEHfI-unsplash.jpg" alt="Sports Wear">
+                  <div class="promo-content">
+                    Sports Wear<br>
+                    <a href="#">SHOP NOW</a>
+                  </div>
                 </div>
-  
-                <div class="mySlides fade">
-                      <img src="/Image/shoes3.jpg" style="width:100%">
-                  <!-- <div class="text">Caption Three</div> -->
+          
+                <!-- Fashion Shoes -->
+                <div class="promo-box">
+                  <img src="/image/luis-felipe-lins-J2-wAQDckus-unsplash.jpg" alt="Fashion Shoes">
+                  <div class="promo-content">
+                    Fashion Shoes<br>
+                    <a href="#">SHOP NOW</a>
+                  </div>
                 </div>
-  
-               <!-- Next and previous buttons -->
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            </div><br>
-               <!-- The dots/circles -->
-          <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
+              </div>
+            </div>
           </div>
-        </div>
+          
         <div class="collection_new">
             <section>
                 <div class="section_nav">
@@ -82,12 +85,12 @@
                     <div class="section_btn">
                         <button class="btn_col btn" data-btn="all">All</button>
                         <button class="btn_col" data-btn="mens">Mens</button>
-                        <button class="btn_col" data-btn="women">Women</button>
-                        <button class="btn_col" data-btn="ki ">Kids</button>
+                        <button class="btn_col" data-btn="womens">Women</button>
+                        <button class="btn_col" data-btn="Kids">Kids</button>
                     </div>
                 </div>
                 <div class="grid-wrapper">
-                    <div class="col-collection-item" data-item="mens">
+                    <div class="col-collection-items" data-item="mens">
                         <figure><img src="/Image/pr1.png" alt=""></figure>
                         <div class="col-body">
                             <p class="rating-icon"><span><i class="fa-solid fa-star"></i></i> 4.9</span></p>
@@ -99,7 +102,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-collection-item" data-item="women">
+                    <div class="col-collection-items" data-item="womens">
                         <figure><img src="/Image/pr2.png" alt=""></figure>
                         <div class="col-body">
                             <p class="rating-icon"><span><i class="fa-solid fa-star"></i></i> 4.9</span></p>
@@ -111,7 +114,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-collection-item" data-item="Kids">
+                    <div class="col-collection-items" data-item="Kids">
                         <figure><img src="/Image/pr3.png" alt=""></figure>
                         <div class="col-body">
                             <p class="rating-icon"><span><i class="fa-solid fa-star"></i></i> 4.9</span></p>
@@ -123,7 +126,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-collection-item" data-item="women">
+                    <div class="col-collection-items" data-item="womens">
                         <figure><img src="/Image/pr4.png" alt=""></figure>
                         <div class="col-body">
                             <p class="rating-icon"><span><i class="fa-solid fa-star"></i></i> 4.9</span></p>
@@ -134,7 +137,7 @@
                                 <button class="shoe-btn">Buy Now</button>
                             </div>
                         </div>
-                    </div> <div class="col-collection-item" data-item="Kids">
+                    </div> <div class="col-collection-items" data-item="Kids">
                         <figure><img src="/Image/pr5.png" alt=""></figure>
                         <div class="col-body">
                             <p class="rating-icon"><span><i class="fa-solid fa-star"></i></i> 4.9</span></p>
@@ -145,7 +148,7 @@
                                 <button class="shoe-btn">Buy Now</button>
                             </div>
                         </div>
-                    </div> <div class="col-collection-item" data-item="mens">
+                    </div> <div class="col-collection-items" data-item="mens">
                         <figure><img src="/Image/pr6.png" alt=""></figure>
                         <div class="col-body">
                             <p class="rating-icon"><span><i class="fa-solid fa-star"></i> 4.9</span></p>
@@ -167,15 +170,15 @@
                         <!-- <p class="sub_heading">Best Shoes</p> -->
                         <H2 class="Heading_two">Mens Shoes</H2>
                     </div>
-                    <div class="section_btn">
+                    <!-- <div class="section_btn">
                         <button class="btn_col btn" data-btn="all">All</button>
                         <button class="btn_col" data-btn="mens">Mens</button>
                         <button class="btn_col" data-btn="women">Women</button>
                         <button class="btn_col" data-btn="ki ">Kids</button>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="grid-wrapper">
-                    <div class="col-collection-item" data-item="mens">
+                    <div class="col-collection-item" data-item="men">
                         <figure><img src="/Image/pr1.png" alt=""></figure>
                         <div class="col-body">
                             <p class="rating-icon"><span><i class="fa-solid fa-star"></i></i> 4.9</span></p>
@@ -187,7 +190,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-collection-item" data-item="women">
+                    <div class="col-collection-item" data-item="men">
                         <figure><img src="/Image/pr2.png" alt=""></figure>
                         <div class="col-body">
                             <p class="rating-icon"><span><i class="fa-solid fa-star"></i></i> 4.9</span></p>
@@ -199,7 +202,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-collection-item" data-item="Kids">
+                    <div class="col-collection-item" data-item="men">
                         <figure><img src="/Image/pr3.png" alt=""></figure>
                         <div class="col-body">
                             <p class="rating-icon"><span><i class="fa-solid fa-star"></i></i> 4.9</span></p>
@@ -211,7 +214,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-collection-item" data-item="women">
+                    <div class="col-collection-item" data-item="men">
                         <figure><img src="/Image/pr4.png" alt=""></figure>
                         <div class="col-body">
                             <p class="rating-icon"><span><i class="fa-solid fa-star"></i></i> 4.9</span></p>
@@ -253,17 +256,17 @@
                 <div class="section_nav">
                     <div class="section_header">
                         <!-- <p class="sub_heading">Best Shoes</p> -->
-                        <H2 class="Heading_two">Mens Shoes</H2>
+                        <H2 class="Heading_two">Women Shoes</H2>
                     </div>
-                    <div class="section_btn">
+                    <!-- <div class="section_btn">
                         <button class="btn_col btn" data-btn="all">All</button>
                         <button class="btn_col" data-btn="mens">Mens</button>
                         <button class="btn_col" data-btn="women">Women</button>
                         <button class="btn_col" data-btn="ki ">Kids</button>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="grid-wrapper">
-                    <div class="col-collection-item" data-item="mens">
+                    <div class="col-collection-item" data-item="women">
                         <figure><img src="/Image/pr1.png" alt=""></figure>
                         <div class="col-body">
                             <p class="rating-icon"><span><i class="fa-solid fa-star"></i></i> 4.9</span></p>
@@ -287,7 +290,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-collection-item" data-item="Kids">
+                    <div class="col-collection-item" data-item="women">
                         <figure><img src="/Image/pr3.png" alt=""></figure>
                         <div class="col-body">
                             <p class="rating-icon"><span><i class="fa-solid fa-star"></i></i> 4.9</span></p>
@@ -343,15 +346,15 @@
                         <!-- <p class="sub_heading">Best Shoes</p> -->
                         <H2 class="Heading_two">Kids Shoes</H2>
                     </div>
-                    <div class="section_btn">
+                    <!-- <div class="section_btn">
                         <button class="btn_col btn" data-btn="all">All</button>
                         <button class="btn_col" data-btn="mens">Mens</button>
                         <button class="btn_col" data-btn="women">Women</button>
                         <button class="btn_col" data-btn="ki ">Kids</button>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="grid-wrapper">
-                    <div class="col-collection-item" data-item="mens">
+                    <div class="col-collection-item" data-item="Kid">
                         <figure><img src="/Image/pr1.png" alt=""></figure>
                         <div class="col-body">
                             <p class="rating-icon"><span><i class="fa-solid fa-star"></i></i> 4.9</span></p>
@@ -363,7 +366,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-collection-item" data-item="women">
+                    <div class="col-collection-item" data-item="Kid">
                         <figure><img src="/Image/pr2.png" alt=""></figure>
                         <div class="col-body">
                             <p class="rating-icon"><span><i class="fa-solid fa-star"></i></i> 4.9</span></p>
@@ -375,7 +378,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-collection-item" data-item="Kids">
+                    <div class="col-collection-item" data-item="Kid">
                         <figure><img src="/Image/pr3.png" alt=""></figure>
                         <div class="col-body">
                             <p class="rating-icon"><span><i class="fa-solid fa-star"></i></i> 4.9</span></p>
@@ -387,7 +390,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-collection-item" data-item="women">
+                    <div class="col-collection-item" data-item="Kid">
                         <figure><img src="/Image/pr4.png" alt=""></figure>
                         <div class="col-body">
                             <p class="rating-icon"><span><i class="fa-solid fa-star"></i></i> 4.9</span></p>
@@ -520,33 +523,33 @@
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-column">
-                <h4>COMPANY NAME</h4>
-                <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h4>ShoeChi</h4>
+                <p>ShoeChi is an innovative e-commerce platform dedicated to providing high-quality, stylish, and comfortable footwear for all. With a focus on modern trends, durability, and customer satisfaction, ShoeChi aims to redefine your shoe-shopping experience.</p>
             </div>
             <div class="footer-column">
                 <h4>PRODUCTS</h4>
                 <ul>
-                    <li><a href="#">MDBootstrap</a></li>
-                    <li><a href="#">MDWordPress</a></li>
-                    <li><a href="#">BrandFlow</a></li>
-                    <li><a href="#">Bootstrap Angular</a></li>
+                    <li><a href="#">New Release</a></li>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">Kid</a></li>
                 </ul>
             </div>
             <div class="footer-column">
                 <h4>USEFUL LINKS</h4>
                 <ul>
-                    <li><a href="#">Your Account</a></li>
-                    <li><a href="#">Become an Affiliate</a></li>
-                    <li><a href="#">Shipping Rates</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Contact</a></li>
                     <li><a href="#">Help</a></li>
                 </ul>
             </div>
             <div class="footer-column">
                 <h4>CONTACT</h4>
                 <ul class="contact-info">
-                    <li><i class="fas fa-home"></i> New York, NY 10012, US</li>
-                    <li><i class="fas fa-envelope"></i> info@gmail.com</li>
-                    <li><i class="fas fa-phone"></i> +01 234 567 88</li>
+                    <li><i class="fas fa-home"></i> Chapagaun, Lalitpur</li>
+                    <li><i class="fas fa-envelope"></i> Shoechi@gmail.com</li>
+                    <li><i class="fas fa-phone"></i> +977-986582145  </li>
                     <li><i class="fas fa-print"></i> +01 234 567 89</li>
                 </ul>
             </div>
@@ -558,8 +561,8 @@
             <a href="#"><i class="fab fa-instagram"></i></a>
         </div>
     </footer>
-    
     </div>
 </body>
 </html>
 <script src="js.js"></script>
+  
