@@ -17,12 +17,10 @@ ul a{
     flex-direction: column; 
     align-items: center; 
     height: auto;
-    margin-bottom: 15px;
 }
 .logo {
     justify-content: center;
     align-items: center;
-    background-color: white; 
     height: 50px;
 }
 .logo img {
