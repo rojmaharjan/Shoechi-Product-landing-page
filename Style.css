@@ -284,6 +284,7 @@ ul a{
   @media (max-width: 768px) {
     .promo-section {
       grid-template-columns: 1fr;
+      height: 60vh;
     }
     .promo-box:nth-child(1),
     .promo-box:nth-child(2),
@@ -292,6 +293,25 @@ ul a{
       grid-row: span 1;
     }
   }
+/* Responsive adjustments */
+  
+  @media (max-width: 480px) {
+    .promo-content {
+      font-size: 1.2rem; /* Adjust font size for smaller screens */
+      padding: 5px 10px; /* Reduce padding */
+    }
+  
+    .promo-box .txt {
+      font-size: 1.2rem; /* Adjust font size for smaller screens */
+    }
+  
+    .promo-box .txt a,
+    .promo-content a {
+      font-size: 0.8rem; /* Adjust link font size */
+      padding: 4px 8px; /* Reduce padding for links */
+    }
+  }
+
     /* wrapper css  */
 /* Section Styles */
 .collection_new {
