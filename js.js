@@ -63,3 +63,23 @@ document.addEventListener("DOMContentLoaded", () => {
     // Initialize slider on load and on resize
     window.addEventListener('load', initializeSlider);
     window.addEventListener('resize', initializeSlider);
+
+
+    // hamburger
+    document.addEventListener("DOMContentLoaded", () => {
+      const hamburger = document.getElementById("hamburger");
+      const closeButton = document.getElementById("closeButton");
+      const categoryMenu = document.getElementById("categoryMenu");
+    
+      hamburger.addEventListener("click", () => {
+        categoryMenu.style.display = "flex";
+        closeButton.style.display = "block";
+        hamburger.style.display = "none";
+      });
+    
+      closeButton.addEventListener("click", () => {
+        categoryMenu.style.display = "none";
+        closeButton.style.display = "none";
+        hamburger.style.display = "flex";
+      });
+    });
