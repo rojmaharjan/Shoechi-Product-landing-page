@@ -1,3 +1,10 @@
 "It's a Shoe Production landing page."<br/>
 "Using Html CSS and Javascript"<br/>
 "vercel link https://shoechi-landingpage.vercel.app/"
+# My Project
+
+Here is an image of the project:
+
+![Project Screenshot](Shoechi\Image\ShoeCHI.png)
+
+Enjoy exploring it!
