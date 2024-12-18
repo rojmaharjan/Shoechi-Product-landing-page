@@ -3,8 +3,7 @@
 "vercel link https://shoechi-landingpage.vercel.app/"
 # My Project
 
-Here is an image of the project:
+Here is an image of the project
 
-("Image/ShoeCHIimage.png")
 
 Enjoy exploring it!
