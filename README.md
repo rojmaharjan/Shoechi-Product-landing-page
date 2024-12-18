@@ -5,6 +5,6 @@
 
 Here is an image of the project:
 
-![Project Screenshot](Image/ShoeCHI (2).png)
+![Project Screenshot]("Image/ShoeCHI(2).png")
 
 Enjoy exploring it!
