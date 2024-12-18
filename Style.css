@@ -9,6 +9,7 @@ body{
 ul a{
     text-decoration: none;
 }
+    /* Container CSS */
 .container {
     width: 100%;
 }
@@ -18,6 +19,7 @@ ul a{
     align-items: center; 
     height: auto;
 }
+    /* Shoechi Header Logo CSS */
 .logo {
     justify-content: center;
     align-items: center;
@@ -28,6 +30,7 @@ ul a{
     max-width: 170px; 
     height: 90%;
 }
+    /* NavbarList CSS */
 .navbarlist {
     display: flex;
     justify-content: space-between;
@@ -53,9 +56,7 @@ ul a{
     list-style-type: none;
     cursor: pointer;
     text-align: left;
-    
 }
-
 .navbarlist ul li {
     margin: auto;
     font-size: 20px;
@@ -74,29 +75,13 @@ ul a{
     align-items: center;
     justify-content: center;
   
-  }
-  .close-button {
+}
+.close-button {
     display: none;
-  }
-  .hamburger span {
-    background-color: rgb(0, 0, 0);
-    height: 3px;
-    width: 25px;
-    margin: 3px 15px;
-  }
-
-.navbarlist .cart{
-    margin-top: 30px;
-    font-size: 20px;
-    cursor: pointer;
-    margin: auto;
-    margin-right: 20px;
-    color: #444444;
 }
 .cart i{
     margin-left: 10px;
 }
-
 .search input {
     border-radius: 10px;
     padding: 10px 40px 10px 15px; 
@@ -123,8 +108,22 @@ ul a{
 .search i.fa-magnifying-glass:hover {
     color: #000; 
 }
-
-
+    /* hamburger CSS */
+.hamburger span {
+        background-color: rgb(0, 0, 0);
+        height: 3px;
+        width: 25px;
+        margin: 3px 15px;
+}
+.navbarlist .cart{
+        margin-top: 30px;
+        font-size: 20px;
+        cursor: pointer;
+        margin: auto;
+        margin-right: 20px;
+        color: #444444;
+}
+    /* Responsive CSS of Navbar  */
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
@@ -140,6 +139,7 @@ ul a{
         align-items: flex-start;
         width: 100%;
         margin: 10px;
+        display: inline-block;
     }
 
     .navbarlist ul li {
@@ -181,10 +181,11 @@ ul a{
         position: absolute;
         top: 0px;
         right: 0px;
-        width: 80%;
-        height: 40vh;
+        width: 40%;
+        height: 25vh;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         z-index: 3;
+        margin-top: 10px;
       }
       .ul a li{
         color: white;
@@ -258,27 +259,23 @@ ul a{
     gap: 20px;
     width: 90%;
     height: 75vh;
-  }
-
-  .promo-box {
+}
+.promo-box {
     position: relative;
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-
-  .promo-box img {
+}
+.promo-box img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.3s ease;
-  }
-
-  .promo-box:hover img {
+}
+.promo-box:hover img {
     transform: scale(1.05);
-  }
-
-  .promo-content {
+}
+.promo-content {
     position: absolute;
     bottom: 20px;
     left: 20px;
@@ -287,8 +284,8 @@ ul a{
     font-weight: bold;
     padding: 10px 15px;
     border-radius: 5px;
-  }
-  .promo-box .txt {
+}
+.promo-box .txt {
     position: absolute;
     top: 30px;
     right: 10px;
@@ -297,8 +294,8 @@ ul a{
     font-weight: bold;
     padding: 10px;
     border-radius: 5px;
-  }
-  .promo-box .txt {
+}
+.promo-box .txt {
     position: absolute;
     top: 50;
     left: 0;
@@ -309,11 +306,9 @@ ul a{
     align-items: center;
     display: none; 
 }
-
 .promo-box:hover .txt {
     display: flex; /* Show on hover */
 }
-
 .promo-box .txt a {
     color: #000000;
     text-decoration: none;
@@ -324,9 +319,7 @@ ul a{
     /* transition: background-color 0.3s ease; */
     background-color: #f37356;
 }
-
-
-  .promo-content a {
+.promo-content a {
     display: inline-block;
     margin-top: 5px;
     font-size: 0.9rem;
@@ -335,27 +328,22 @@ ul a{
     padding: 5px 10px;
     border-radius: 5px;
     transition: background 0.3s ease;
-  }
-
-  .promo-content a:hover {
+}
+.promo-content a:hover {
     background: #ddd;
-  }
-
-  /* Grid placement adjustments */
-  .promo-box:nth-child(1) {
+}
+/* Grid placement adjustments */
+.promo-box:nth-child(1) {
     grid-column: span 1;
     grid-row: span 2;
-  }
-
-  .promo-box:nth-child(2),
-  .promo-box:nth-child(3) {
+}
+.promo-box:nth-child(2),
+.promo-box:nth-child(3) {
     grid-column: span 1;
     grid-row: span 1;
-  }
-  
-
+}
   /* Responsive adjustments */
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
     .promo-section {
       grid-template-columns: 1fr;
       height: 60vh;
@@ -366,10 +354,9 @@ ul a{
       grid-column: span 1;
       grid-row: span 1;
     }
-  }
+}
 /* Responsive adjustments */
-  
-  @media (max-width: 480px) {
+@media (max-width: 480px) {
     .promo{
         min-height: 40vh;
     }
@@ -390,8 +377,7 @@ ul a{
       font-size: 0.8rem; 
       padding: 4px 8px; 
     }
-  }
-
+}
     /* wrapper css  */
 /* Section Styles */
 .collection_new {
@@ -406,18 +392,15 @@ ul a{
     align-items: center;
     margin-bottom: 20px;
 }
-
 .section_header .sub_heading {
     color: #aaa;
     font-size: 14px;
     margin: 0;
 }
-
 .section_header .Heading_two {
     font-size: 32px;
     margin: 5px 0 0;
 }
-
 .section_btn {
     display: flex;
     gap: 10px;
@@ -434,7 +417,6 @@ ul a{
     border-radius: 5px;
     transition: background 0.3s;
 }
-
 .section_btn .btn_col:hover {
     background: linear-gradient(135deg , #f5deb3, #ebbe69);
 }
@@ -473,7 +455,6 @@ ul a{
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
 }
-
 .col-collection-items {
     width: 100%;
     background: #2c2c3e;
@@ -487,11 +468,9 @@ ul a{
     overflow: hidden;
     transition: transform 0.3s;
 }
-
 .col-collection-item:hover {
     transform: translateY(-10px);
 }
-
 /* Image Styles */
 .col-collection-items figure {
     height: 120px;
@@ -500,7 +479,6 @@ ul a{
     align-items: center;
     justify-content: center;
 }
-
 .col-collection-items img {
     max-width: 100%;
     max-height: 100%;
@@ -512,36 +490,29 @@ ul a{
     align-items: center;
     justify-content: center;
 }
-
 .col-collection-item img {
     max-width: 100%;
     max-height: 100%;
 }
-
 /* Card Body Styles */
 .col-body {
     padding: 15px;
 }
-
 .col-body .rating-icon {
     color: #ffcc00;
     font-size: 14px;
     margin-bottom: 10px;
 }
-
 .col-body .Heading {
     font-size: 18px;
     margin: 0;
     color: white;
 }
-
 .col-body .sub-heading {
     font-size: 14px;
     color: #bbb;
     margin: 5px 0 15px;
 }
-
-
 /* Footer Styles */
 .col-footer {
     display: flex;
@@ -555,7 +526,6 @@ ul a{
     font-size: 16px;
     font-weight: bold;
 }
-
 .shoe-btn {
     background: linear-gradient(135deg, #00c4cc, #008a81);
     border: none;
@@ -566,34 +536,28 @@ ul a{
     border-radius: 5px;
     transition: background 0.3s;
 }
-
 .shoe-btn:hover {
     background: linear-gradient(135deg, #008a81, #00c4cc);
     color: wheat;
 }
-
 .collection_men {
     border: 1px solid black;
     max-width: 1000px;
     margin: auto;
     margin-bottom: 50px;
 }
-
 .collection_women {
     border: 1px solid black;
     max-width: 1000px;
     margin: auto;
     margin-bottom: 50px;
 }
-
 .collection_kids {
     border: 1px solid black;
     max-width: 1000px;
     margin: auto;
     margin-bottom: 50px;
 }
-
-
     /* footer css */
 .footer {
     background-color: #3b4f66;
@@ -604,7 +568,6 @@ ul a{
     width: 100%;
     margin-bottom: 1px;
 }
-
 .footer-container {
     display: flex;
     justify-content: space-around;
@@ -612,12 +575,10 @@ ul a{
     padding: 20px;
     flex-wrap: wrap;
 }
-
 .footer-column {
     width: 22%;
     margin-bottom: 20px;
 }
-
 .footer-column h4 {
     font-size: 20px;
     margin-bottom: 15px;
@@ -625,20 +586,16 @@ ul a{
     border-bottom: 1px solid #fff;
     padding-bottom: 5px;
 }
-
 .footer-column p {
     margin: 0 0 10px;
 }
-
 .footer-column ul {
     list-style: none;
     padding: 0;
 }
-
 .footer-column ul li {
     margin-bottom: 8px;
 }
-
 .footer-column ul li a {
     color: #f1f0f0;
     text-decoration: none;
@@ -648,23 +605,19 @@ ul a{
 .footer-column ul li a:hover {
     text-decoration: underline;
 }
-
 .contact-info li {
     display: flex;
     align-items: center;
 }
-
 .contact-info i {
     margin-right: 10px;
 }
-
 /* Social Media Links */
 .footer-social {
     text-align: center;
     padding-top: 10px;
     border-top: 1px solid #ccc;
 }
-
 .footer-social a {
     color: #fff;
     margin: 0 10px;
@@ -673,11 +626,9 @@ ul a{
     display: inline-block;
     transition: 0.3s;
 }
-
 .footer-social a:hover {
     color: #00aced;
 }
-
 @media (max-width: 480px) {
     .footer-container {
         flex-direction: column;
@@ -722,40 +673,35 @@ ul a{
     }
     
 }
-
-    /* service css */
+     /* service css  */
 .section.service {
     padding: 50px 0;
     background-color: #fff;
-  } 
+} 
 .containerr {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
-  }
-  
-  .service-list {
+}
+.service-list {
     list-style: none;
     display: flex;
     justify-content: space-between;
     gap: 20px;
-  }
-  
-  .service-item {
+}
+.service-item {
     flex: 1;
     text-align: center;
-  }
-  
-  .service-card {
+} 
+.service-card {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     gap: 15px;
     background-color: #fff;
     padding: 10px;
-  }
-  
-  .card-icon {
+} 
+.card-icon {
     background-color: #5b5a5a;
     width: 70px;
     height: 70px;
@@ -763,28 +709,24 @@ ul a{
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .card-icon img {
+} 
+.card-icon img {
     width: 40px;
     height: auto;
-  }
-  
-  .card-title {
+} 
+.card-title {
     font-size: 1.2rem;
     font-weight: 700;
     color: #000;
     margin-bottom: 5px;
-  }
-  
-  .card-text {
+} 
+.card-text {
     font-size: 0.9rem;
     color: #555;
-  }
-  
-  .card-text span {
+}
+.card-text span {
     color: #ff6f61; /* Highlighted Price */
-  }
+}
   /* responsive css */
 @media screen and (max-width: 768px) {
     .service-list {
@@ -820,8 +762,6 @@ ul a{
       font-size: 0.8rem;
     }
 }
-
-
   /* app download css */
 .app-download{
     margin: auto auto;
