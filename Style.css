@@ -181,8 +181,8 @@ ul a{
         position: absolute;
         top: 0px;
         right: 0px;
-        width: 40%;
-        height: 25vh;
+        width: 30%;
+        height: 30vh;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         z-index: 3;
         margin-top: 10px;
@@ -208,9 +208,6 @@ ul a{
         align-items: flex-start;
         margin: auto;
     }
-    .navbarlist ul {
-        /* display: none; */
-    }
     .navbarlist ul li {
         margin-left: 0;
         margin-top: 10px;
@@ -219,6 +216,10 @@ ul a{
     .ul a li{
         color: white;
       }
+    .ul{
+        height: 28%;
+        width: 20vh;
+    }
     .navbarlist .search_login{
         display: flex;
     }
@@ -235,7 +236,6 @@ ul a{
     }
     .hamburger-container{
         margin-top: 12px;
-        
     }
 }
 
@@ -378,7 +378,7 @@ ul a{
       padding: 4px 8px; 
     }
 }
-    /* wrapper css  */
+    /* Product item CSS */
 /* Section Styles */
 .collection_new {
     max-width: 90%;
@@ -629,6 +629,7 @@ ul a{
 .footer-social a:hover {
     color: #00aced;
 }
+    /* Responsice of social media CSS */
 @media (max-width: 480px) {
     .footer-container {
         flex-direction: column;
