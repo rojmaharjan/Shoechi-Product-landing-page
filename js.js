@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
         const promoBoxes = document.querySelectorAll('.promo-box');
         promoBoxes.forEach(box => {
-          box.style.minWidth = '80%'; // Adjust box size for the slider
+          box.style.minWidth = '90%'; // Adjust box size for the slider
           box.style.scrollSnapAlign = 'center';
         });
       } else if (!isMobile && promoSlider.classList.contains('mobile-slider')) {
