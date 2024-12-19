@@ -1,5 +1,5 @@
 "It's a Shoe Production landing page."<br/>
-"Using Html CSS and Javascript"<br/>
+"Using Html CSS and Javascript with fully responsive."<br/>
 "vercel link https://shoechi-landingpage.vercel.app/"
 # My Project
 
