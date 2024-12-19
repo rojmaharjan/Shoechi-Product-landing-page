@@ -13,10 +13,10 @@ Encourages users to download the Shoechi app for an enhanced shopping experience
 Highlights services such as Fast Delivery, Secure Payment, Free Returns, and 24/7 Support.<br/>
 Quick links for navigation, contact details, and social media icons for engagement.<br/>
 
-🔧 Built With
-HTML5: Provides a solid structure to the webpage.
-CSS3: Adds styling and visual appeal, including hover effects and animations.
-JavaScript: Powers interactivity like dynamic filtering.
+🔧 Built With<br/>
+HTML5: Provides a solid structure to the webpage<br/>
+CSS3: Adds styling and visual appeal, including hover effects and animations.<br/>
+JavaScript: Powers interactivity like dynamic filtering.<br/>
 
 🌐 Live Demo: [Check it out!](https://shoechi-landingpage.vercel.app/)  
 
