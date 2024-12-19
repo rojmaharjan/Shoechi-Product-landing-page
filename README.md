@@ -5,9 +5,7 @@
 
 Here is an image location of the project
 
-inside the image folder with the name of "ShoeCHIImage.png"
-
-![My Logo](Image/ShoeCHIimage.png)
+![Landing page of SHoechi](Image/ShoeCHIimage.png)
 
 
 Enjoy exploring it!
