@@ -17,8 +17,7 @@ Quick links for navigation, contact details, and social media icons for engageme
 HTML5: Provides a solid structure to the webpage<br/>
 CSS3: Adds styling and visual appeal, including hover effects and animations.<br/>
 JavaScript: Powers interactivity like dynamic filtering.<br/>
-
-
+</br>
 🌐 Live Demo: [Check it out!](https://shoechi-landingpage.vercel.app/)  
 
 <h3>📸 Preview</h3>
