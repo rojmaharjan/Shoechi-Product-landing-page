@@ -1,4 +1,4 @@
-👟 Shoechi - Product Landing Page<br/>
+👟 <h1>Shoechi - Product Landing Page</h1><br/>
 Shoechi is a modern and visually captivating product landing page designed to showcase a premium collection of shoes for all men, women and kids. It emphasizes user engagement through its clean layout, responsive design, and intuitive navigation, making it ideal for e-commerce platforms.
 
 🛒 Product Listings<br/>
