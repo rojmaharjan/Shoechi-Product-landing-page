@@ -83,3 +83,17 @@ document.addEventListener("DOMContentLoaded", () => {
         hamburger.style.display = "flex";
       });
     });
+
+    //scroll up js
+    document.addEventListener('scroll', () => {
+      const scrollUpButton = document.querySelector('.scroll-up');
+      const scrollPosition = window.scrollY || document.documentElement.scrollTop;
+      const triggerHeight = document.documentElement.scrollHeight * 0.3;
+  
+      if (scrollPosition > triggerHeight) {
+          scrollUpButton.classList.add('_show-scroll');
+      } else {
+          scrollUpButton.classList.remove('_show-scroll');
+      }
+  });
+  
